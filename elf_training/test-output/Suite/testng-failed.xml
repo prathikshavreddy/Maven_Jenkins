@@ -3,31 +3,31 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="elf_training.Zomato_Test">
+      <class name="test_Scripts.Uber_Test">
         <methods>
           <include name="Browsersetup"/>
         </methods>
-      </class> <!-- elf_training.Zomato_Test -->
-      <class name="elf_training.Swiggy_Test">
+      </class> <!-- test_Scripts.Uber_Test -->
+      <class name="test_Scripts.Ola_Test">
         <methods>
           <include name="Browsersetup"/>
         </methods>
-      </class> <!-- elf_training.Swiggy_Test -->
-      <class name="elf_training.Ola_Test">
+      </class> <!-- test_Scripts.Ola_Test -->
+      <class name="test_Scripts.Kia_Test">
         <methods>
           <include name="Browsersetup"/>
         </methods>
-      </class> <!-- elf_training.Ola_Test -->
-      <class name="elf_training.Uber_Test">
+      </class> <!-- test_Scripts.Kia_Test -->
+      <class name="test_Scripts.Swiggy_Test">
         <methods>
           <include name="Browsersetup"/>
         </methods>
-      </class> <!-- elf_training.Uber_Test -->
-      <class name="elf_training.Kia_Test">
+      </class> <!-- test_Scripts.Swiggy_Test -->
+      <class name="test_Scripts.Zomato_Test">
         <methods>
           <include name="Browsersetup"/>
         </methods>
-      </class> <!-- elf_training.Kia_Test -->
+      </class> <!-- test_Scripts.Zomato_Test -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
